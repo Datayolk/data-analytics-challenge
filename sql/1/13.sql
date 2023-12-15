@@ -1,0 +1,5 @@
+SELECT AdID, (SUM(Cost) / SUM(Impressions) * 1000) AS CPM
+FROM AdPerformance
+GROUP BY AdID
+ORDER BY CPM DESC
+LIMIT 5;

@@ -1,0 +1,1 @@
+UPDATE customers SET status = 'Gold' WHERE orders_count > 5;
