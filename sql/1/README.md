@@ -1,101 +1,81 @@
 # รวมโจทย์ SQL พร้อมเฉลย ชุดที่ 1
 
-### Q1: Retrieve the names of employees who earn more than $50,000
+### Q1: Retrieve all customers from Mora city
 
 - [Answer](/sql/1/1.sql)
 
-### Q2: Calculate the average salary for each department
+### Q2: Retrieve the latest order for each customer
 
 - [Answer](/sql/1/2.sql)
 
-### Q3: Retrieve the latest order for each customer
+### Q3: Get the total number of orders for each customer
 
 - [Answer](/sql/1/3.sql)
 
-### Q4: Retrieve employees who employed before the year 2000
+### Q4: Calculate the running total of sales for each product over time
 
 - [Answer](/sql/1/4.sql)
 
-### Q5: Calculate the running total of sales for each product over time
+### Q5: Retrieve the product names and their prices from the "products" table, where the price is less than $20
 
 - [Answer](/sql/1/5.sql)
 
-### Q6: Update the "customers" table, setting the "status" column to 'Gold' for customers who have made more than 5 orders
+### Q6: Find the highest order amount and the corresponding customer
 
 - [Answer](/sql/1/6.sql)
 
-### Q7: Retrieve the employee names and the department names they belong to from the "employees" and "departments" tables
+### Q7: Retrieve the payment methods and their amounts from the "Payments" table where the total amount is less than $200
 
 - [Answer](/sql/1/7.sql)
 
-### Q8: Retrieve employees with the highest salary in each department
+### Q8: Calculate the average order count per city
 
 - [Answer](/sql/1/8.sql)
 
-### Q9: Calculate the click-through rate (CTR) for each advertising campaign, considering the total number of clicks and impressions
+### Q9: Find the top 5 customers with the highest total order amount
 
 - [Answer](/sql/1/9.sql)
 
-### Q10: List the campaigns that have experienced a significant increase (more than 20%) in engagement compared to the previous month
+### Q10: List all products along with the total quantity sold
 
 - [Answer](/sql/1/10.sql)
 
-### Q11: Find the average cost per click (CPC) for each advertising platform
+### Q11: Calculate the payment method with the highest total amount
 
 - [Answer](/sql/1/11.sql)
 
-### Q12: Identify the day of the week with the highest average Clicks
+### Q12: Calculate the total revenue from the "orders" table by multiplying "quantity" and "unit_price" columns
 
 - [Answer](/sql/1/12.sql)
 
-### Q13: Retrieve the top 5 ads with the highest cost per mille (CPM)
+### Q13: Retrieve the product names and their prices from the "products" table, where the price is between $20 and $50
 
 - [Answer](/sql/1/13.sql)
 
-### Q14: Retrieve the top 10 performing media channels based on the total number of impressions in the last month
+### Q14: Calculate the percentage of total sales for each payment method
 
 - [Answer](/sql/1/14.sql)
 
-### Q15: List employees who have a salary above the average salary of their department
+### Q15: Delete all records from the "expired_products" table where the expiration date is in the past
 
 - [Answer](/sql/1/15.sql)
 
-### Q16: Identify employees who have worked continuously for more than 5 years
+### Q16: Find the product names with expiration dates before the year 2023
 
 - [Answer](/sql/1/16.sql)
 
-### Q17: Find the top 5 customers with the highest total order amount
+### Q17: Retrieve the latest order for each product
 
 - [Answer](/sql/1/17.sql)
 
-### Q18: Calculate the total revenue from the "orders" table by multiplying "quantity" and "unit_price" columns
+### Q18: Retrieve the total amount of payments made by each customer
 
 - [Answer](/sql/1/18.sql)
 
-### Q19: Retrieve the product names and their prices from the "products" table, where the price is between $20 and $50
+### Q19: Calculation the customers who have made the highest total payments
 
 - [Answer](/sql/1/19.sql)
 
-### Q20: Calculate the percentage of total sales for each product category
+### Q20: Rank products based on their total revenue
 
 - [Answer](/sql/1/20.sql)
-
-### Q21: Delete all records from the "expired_products" table where the expiration date is in the past
-
-- [Answer](/sql/1/21.sql)
-
-### Q22: Retrieve the second highest salary from the "employees" table
-
-- [Answer](/sql/1/22.sql)
-
-### Q23: Retrieve the latest order for each product
-
-- [Answer](/sql/1/23.sql)
-
-### Q24: Calculate the cumulative sum of sales for each month.
-
-- [Answer](/sql/1/24.sql)
-
-### Q25: Calculate the percentage growth in revenue compared to the previous month
-
-- [Answer](/sql/1/25.sql)

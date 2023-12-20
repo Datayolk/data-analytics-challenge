@@ -1,3 +1,3 @@
-SELECT department_id, AVG(salary) AS avg_salary
-FROM employees
-GROUP BY department_id;
+SELECT customer_id, MAX(order_date) AS latest_order
+FROM orders
+GROUP BY customer_id;

@@ -1,3 +1,1 @@
-SELECT customer_id, MAX(order_date) AS latest_order
-FROM orders
-GROUP BY customer_id;
+SELECT customer_id, COUNT(order_id) AS total_orders FROM Orders GROUP BY customer_id;

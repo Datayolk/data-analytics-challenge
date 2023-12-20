@@ -1,3 +1,3 @@
-SELECT EmployeeID, EmployeeName
-FROM Employees
-WHERE DATEDIFF(NOW(), HireDate) > 5*365;
+SELECT product_name
+FROM Expired_Products
+WHERE expiration_date < '2023-01-01';

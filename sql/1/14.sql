@@ -1,6 +1,7 @@
-SELECT MediaChannel, SUM(Impressions) AS TotalImpressions
-FROM Marketing
-WHERE Date >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)
-GROUP BY MediaChannel
-ORDER BY TotalImpressions DESC
-LIMIT 10;
+SELECT
+    p.payment_method,
+    (SUM(p.amount) / (SELECT SUM(amount) FROM payments)) * 100 AS percentage_of_total_sales
+FROM
+    payments p
+GROUP BY
+    p.payment_method;

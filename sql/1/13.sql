@@ -1,5 +1,1 @@
-SELECT AdID, (SUM(Cost) / SUM(Impressions) * 1000) AS CPM
-FROM AdPerformance
-GROUP BY AdID
-ORDER BY CPM DESC
-LIMIT 5;
+SELECT product_name, unit_price FROM products WHERE unit_price BETWEEN 20 AND 50;

@@ -1,1 +1,1 @@
-SELECT emp_name FROM employees WHERE salary > 50000;
+SELECT * FROM Customers WHERE city = 'Mora';

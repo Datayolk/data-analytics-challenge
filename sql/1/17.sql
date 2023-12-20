@@ -1,5 +1,3 @@
-SELECT customer_id, SUM(quantity * unit_price) AS total_amount
-FROM orders
-GROUP BY customer_id
-ORDER BY total_amount DESC
-LIMIT 5;
+SELECT product_id, MAX(order_date) AS latest_order
+FROM order_details
+GROUP BY product_id;
