@@ -1,0 +1,1 @@
+DELETE FROM expired_products WHERE expiration_date < CURRENT_DATE;
