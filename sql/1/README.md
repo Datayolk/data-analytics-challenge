@@ -1,5 +1,7 @@
 # รวมโจทย์ SQL พร้อมเฉลย ชุดที่ 1
 
+รันโปรเจคด้วย [Replit Link](https://replit.com/@me385/SalesDatasets)
+
 ### Q1: Retrieve all customers from Mora city
 
 - [Answer](/sql/1/1.sql)
