@@ -6,7 +6,6 @@
 ### Q1: ให้ดึงข้อมูลประเภทของห้อง และจำนวนห้องที่ว่างในแต่ละประเภท
 
 - [Answer](/data-analytic/3/1.sql)
-https://github.com/Datayolk/data-analytics-challenge/blob/main/data-analytic/3/1.sql
 
 ### Q2: ให้คำนวณราคาเฉลี่ยที่ลูกค้าจ่าย
 
