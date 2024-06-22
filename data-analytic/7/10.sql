@@ -1,0 +1,1 @@
+=QUERY(Data!A:L, "SELECT D, A, F WHERE F = "&MIN(Data!F:F), 1)

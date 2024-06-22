@@ -1,0 +1,1 @@
+=QUERY(Data!A:L, "SELECT A, H, F WHERE H = 'Credit Card'", 1)

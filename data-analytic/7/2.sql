@@ -1,0 +1,1 @@
+=QUERY(Data!A:L, "SELECT B, SUM(F) GROUP BY B", 1)
