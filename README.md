@@ -8,3 +8,6 @@
 
 ## Folder /data-analytic
 โจทย์สั้น ๆ 5 - 10 ข้อ เน้นฝึกเขียน SQL ไปพร้อม ๆ กับเรียนรู้ Metric ที่สำคัญของธุรกิจนั้น ๆ
+
+## Folder /data-literacy
+โจทย์เกี่ยวกับการอ่าน เลือกใช้ และสรุปผลข้อมูลจาก Data Visualization
